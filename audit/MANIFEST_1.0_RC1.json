@@ -1,0 +1,51 @@
+{
+  "version": "1.0-RC1",
+  "cutoff": "2026-11-02",
+  "source_items": 767,
+  "review_rows": 767,
+  "vietnam_chapters": 34,
+  "source_tip_count_in_chapters": 205,
+  "priority_counts": {
+    "P1 – cần thẩm định trước xuất bản": 688,
+    "P2 – cần kiểm tra nguồn và bối cảnh": 79
+  },
+  "decisions": {
+    "GIỮ Ý CÓ ĐIỀU KIỆN; KIỂM TRA CHUYÊN MÔN Y KHOA": 265,
+    "VIẾT LẠI TOÀN BỘ THEO PHÁP LUẬT VIỆT NAM": 260,
+    "THAY SỐ LIÊN HỆ VÀ QUY TRÌNH THEO VIỆT NAM": 47,
+    "GIỮ NGUYÊN TẮC; CÁ NHÂN HÓA VÀ KIỂM TRA HƯỚNG DẪN": 4,
+    "LOẠI BỎ/VIẾT LẠI DO XUNG ĐỘT PHÁP LÝ VIỆT NAM": 3,
+    "GIỮ KHUNG QUẢN LÝ; BỎ CAM KẾT LỢI NHUẬN VÀ SỐ CŨ": 61,
+    "THAY THỊ TRƯỜNG, THUẾ VÀ QUY ĐỊNH BẰNG DỮ LIỆU VIỆT NAM": 127
+  },
+  "limitations": [
+    "Desk review per row based on titles/excerpts/source URLs; not expert validation of all claims.",
+    "Not all 2,531 source URLs have been independently opened and evaluated.",
+    "Professional medical/legal/tax/financial sign-off remains required for P1 content.",
+    "Công cụ xuất bản trong upstream-reference/tools được lưu để tham khảo; chưa được port hoặc kiểm thử với cấu trúc tiếng Việt.",
+    "Đã trích toàn văn và khớp 767/767 mục, nhưng chưa xác minh độc lập từng mệnh đề và toàn bộ 2.531 URL nguồn.",
+    "Đã trích toàn văn và khớp 767/767 mục, nhưng chưa xác minh độc lập từng mệnh đề và toàn bộ 2.531 URL nguồn."
+  ],
+  "counting_rule": "Số lời khuyên trong book/ = tiêu đề cấp 2 bắt đầu bằng số và dấu chấm; không đếm tiêu đề phụ của phụ lục cập nhật.",
+  "package_files": 373,
+  "archived_upstream_docs": 249,
+  "archived_upstream_tools": 22,
+  "full_source_items_extracted": 767,
+  "full_source_titles_matched": 767,
+  "full_text_matrix": "audit/MA_TRAN_767_TOAN_VAN_VA_THAM_DINH.csv",
+  "full_text_audit_report": "audit/BAO_CAO_QUET_TOAN_VAN_767.md",
+  "full_text_review_priorities": {
+    "P1 – cần phản biện chuyên môn/đối chiếu nguồn trước khi xuất bản": 690,
+    "P3 – biên tập ngôn ngữ và kiểm tra khả năng áp dụng": 14,
+    "P2 – cần cập nhật số liệu và kiểm tra bối cảnh": 63
+  },
+  "review_date": "2026-11-02",
+  "localized_chapters": 34,
+  "localized_advice_items": 205,
+  "original_advice_items_full_text_matched": 767,
+  "matrix_rows": 767,
+  "expert_validation_complete": false,
+  "all_2531_source_urls_independently_reviewed": false,
+  "release_status": "release candidate; selected content and full-text audit matrix; not expert-certified",
+  "package_files_before_manifest": 361
+}
