@@ -464,3 +464,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .nav-cta { padding: 8px 8px; font-size: 9px; }
   .mobile-menu summary { gap: 5px; padding-inline: 8px; font-size: 10px; }
 }
+
+
+/* Review status badge for the 767-item Vietnam edition */
+.tip-review { display:inline-flex; align-items:center; border-radius:999px; padding:4px 8px; font-size:11px; line-height:1.2; font-weight:700; background:#f2eee7; color:#76502c; }
+.tip-review.review-p2 { background:#edf3f8; color:#315a78; }
+.tip-review.review-p3 { background:#edf5ef; color:#35664a; }
+.tip-card-top { flex-wrap:wrap; }

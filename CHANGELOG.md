@@ -1,3 +1,14 @@
+# CHANGELOG
+
+## Full Edition 767 — 02/11/2026
+- Đưa đầy đủ 767/767 mục gốc vào 34 chương tiếng Việt, giữ mã HTLB-001 đến HTLB-767.
+- Bổ sung ma trận `MA_TRAN_VIET_HOA_767.csv`, gồm tiêu đề Việt hóa, cách áp dụng, cảnh báo bối cảnh, nguồn tham khảo và toàn văn nguyên tác để truy vết.
+- Website mặc định hiển thị đủ 767 lời khuyên, cập nhật số lượng chương và có bộ lọc P1/P2/P3.
+- Giữ bản chọn lọc 205 mục cũ trong `book-curated-205/` để đối chiếu, không còn là nội dung mặc định.
+- Ghi rõ 767 mục đã được bao phủ nhưng chưa phải 767 kết luận đã được chuyên gia thẩm định độc lập.
+
+---
+
 # Nhật ký thay đổi — HowToLiveBetter Vietnam
 
 ## 1.0 RC2 — 02/11/2026
@@ -28,3 +39,52 @@
 - Ma trận là hồ sơ sàng lọc và ưu tiên, không phải chứng nhận từng kết luận đúng/sai.
 - Chưa kiểm tra độc lập toàn bộ 2.531 URL; nội dung rủi ro y tế/pháp lý/tài chính cần chuyên gia tương ứng thẩm định.
 - RC2 đã qua kiểm thử giao diện client trong Chromium ở các viewport nêu trong báo cáo, nhưng chưa được kiểm thử trên mọi thiết bị vật lý, trình duyệt và hosting production.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V2 — 02/11/2026
+- Thay các câu “Cách áp dụng” dùng chung không đúng chủ đề bằng hướng dẫn hành động theo chủ đề/tiêu đề.
+- Bổ sung bối cảnh Việt Nam cho từng mục và ma trận truy vết hai cột biên tập.
+- Giữ đủ 767 mã HTLB-001 đến HTLB-767, không âm thầm gộp hoặc loại bỏ.
+- Ghi rõ các mục vẫn cần thẩm định chuyên môn độc lập.
+
+
+## Full Edition V3 — 02/11/2026
+- Kiểm tra chéo title/action/context, sửa 52 tình huống cần điều chỉnh theo ID cụ thể.
+- Bổ sung link nguồn khởi điểm theo chương/chủ đề cho mọi mục; ghi rõ link không tự chứng minh claim.
+- Sửa nội dung nhạy cảm về tour, tài chính, CIC, sinh trắc học/OTP, sơ cứu gãy xương, thai sản, kháng histamine và grapefruit/statin.
+- Giữ 767 mã độc nhất và cảnh báo rõ trạng thái chuyên gia chưa hoàn tất.

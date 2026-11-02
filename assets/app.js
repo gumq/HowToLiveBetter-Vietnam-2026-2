@@ -1,5 +1,5 @@
 
-const CHAPTERS = [{"num": 1, "file": "01-suc-khoe-va-phong-ngua.md", "title": "Bảo vệ tính mạng và phòng bệnh", "tips": 6, "group": "Sức khỏe"}, {"num": 2, "file": "02-loi-song-va-benh-man-tinh.md", "title": "Lối sống giúp giảm nguy cơ bệnh mạn tính", "tips": 6, "group": "Sức khỏe"}, {"num": 3, "file": "03-quan-ly-nang-luong-va-tap-trung.md", "title": "Quản lý năng lượng và sự tập trung", "tips": 6, "group": "Phát triển"}, {"num": 4, "file": "04-quan-ly-thoi-gian-va-quyet-dinh.md", "title": "Quản lý thời gian và ra quyết định", "tips": 6, "group": "Phát triển"}, {"num": 5, "file": "05-tai-chinh-ca-nhan.md", "title": "Quản lý tiền và tránh mất tiền", "tips": 7, "group": "Tiền bạc"}, {"num": 6, "file": "06-nhung-khoan-khong-nen-mua.md", "title": "Những khoản không nên mua chỉ vì quảng cáo", "tips": 6, "group": "Tiền bạc"}, {"num": 7, "file": "07-khi-thieu-tien-va-mat-viec.md", "title": "Khi mất việc, thiếu tiền hoặc gặp biến cố", "tips": 6, "group": "Tiền bạc"}, {"num": 8, "file": "08-tranh-chap-va-bao-ve-ban-than.md", "title": "Tránh rủi ro pháp lý và bảo vệ quyền lợi", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 9, "file": "09-cac-rui-ro-phap-ly-thuong-gap.md", "title": "Những rủi ro pháp lý thường gặp trong đời sống Việt Nam", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 10, "file": "10-tinh-yeu-hon-nhan-va-gia-dinh.md", "title": "Tình yêu, hôn nhân và gia đình", "tips": 6, "group": "Gia đình"}, {"num": 11, "file": "11-lap-trinh-vien-va-cong-nghe.md", "title": "Lưu ý pháp lý cho lập trình viên và người làm công nghệ", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 12, "file": "12-khoi-nghiep-va-kinh-doanh.md", "title": "Khởi nghiệp và kinh doanh tại Việt Nam", "tips": 7, "group": "Pháp lý & công việc"}, {"num": 13, "file": "13-so-cuu-va-khan-cap.md", "title": "Sơ cứu và tình huống khẩn cấp", "tips": 6, "group": "Sức khỏe"}, {"num": 14, "file": "14-an-toan-tai-khoan-va-du-lieu.md", "title": "An toàn tài khoản và dữ liệu", "tips": 6, "group": "Đời sống"}, {"num": 15, "file": "15-thue-nha-va-mua-nha.md", "title": "Thuê nhà và mua nhà", "tips": 6, "group": "Tiền bạc"}, {"num": 16, "file": "16-song-voi-benh-man-tinh.md", "title": "Sống cùng bệnh mạn tính", "tips": 6, "group": "Sức khỏe"}, {"num": 17, "file": "17-cham-soc-nguoi-cao-tuoi.md", "title": "Chăm sóc người cao tuổi", "tips": 6, "group": "Gia đình"}, {"num": 18, "file": "18-quyet-dinh-sinh-con-va-nuoi-con.md", "title": "Quyết định sinh con và nuôi con", "tips": 5, "group": "Gia đình"}, {"num": 19, "file": "19-quyen-loi-lao-dong-va-nghi-viec.md", "title": "Quyền lợi khi đi làm, nghỉ việc và tai nạn lao động", "tips": 7, "group": "Pháp lý & công việc"}, {"num": 20, "file": "20-cham-soc-tre-so-sinh.md", "title": "Chăm sóc trẻ sơ sinh", "tips": 6, "group": "Sức khỏe"}, {"num": 21, "file": "21-du-lich-nuoc-ngoai.md", "title": "Du lịch nước ngoài an toàn", "tips": 6, "group": "Phát triển"}, {"num": 22, "file": "22-giai-tri-va-thu-gian.md", "title": "Giải trí và nghỉ ngơi an toàn", "tips": 6, "group": "Phát triển"}, {"num": 23, "file": "23-hoc-ky-nang-va-nghe-nghiep.md", "title": "Học kỹ năng và phát triển nghề nghiệp", "tips": 6, "group": "Phát triển"}, {"num": 24, "file": "24-kham-chua-benh-va-bhyt.md", "title": "Khám chữa bệnh và sử dụng bảo hiểm y tế", "tips": 6, "group": "Sức khỏe"}, {"num": 25, "file": "25-thu-tuc-sau-khi-nguoi-than-qua-doi.md", "title": "Những việc cần làm khi người thân qua đời", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 26, "file": "26-xay-dung-website-va-nen-tang-so.md", "title": "Xây dựng website, ứng dụng và nền tảng số", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 27, "file": "27-mang-thai-va-sinh-no.md", "title": "Mang thai và sinh nở", "tips": 6, "group": "Sức khỏe"}, {"num": 28, "file": "28-ngoai-hinh-va-tham-my-an-toan.md", "title": "Chăm sóc ngoại hình mà không làm hại sức khỏe", "tips": 5, "group": "Sức khỏe"}, {"num": 29, "file": "29-vuot-qua-bien-co-va-khung-hoang.md", "title": "Vượt qua mất mát, thất nghiệp và biến cố lớn", "tips": 6, "group": "Gia đình"}, {"num": 30, "file": "30-suc-khoe-va-an-toan-tre-di-hoc.md", "title": "Sức khỏe và an toàn của trẻ đi học", "tips": 6, "group": "Gia đình"}, {"num": 31, "file": "31-lua-chon-sau-tuoi-18.md", "title": "Những lựa chọn sau tuổi 18", "tips": 6, "group": "Pháp lý & công việc"}, {"num": 32, "file": "32-du-hoc-va-hoc-tap-o-nuoc-ngoai.md", "title": "Du học và học tập ở nước ngoài", "tips": 5, "group": "Phát triển"}, {"num": 33, "file": "33-song-voi-khuyet-tat-va-cham-soc-dai-han.md", "title": "Sống với khuyết tật và chăm sóc dài hạn", "tips": 6, "group": "Gia đình"}, {"num": 34, "file": "34-su-dung-thuoc-an-toan-tai-nha.md", "title": "Dùng thuốc an toàn tại nhà", "tips": 7, "group": "Sức khỏe"}];
+const CHAPTERS = [{"num":1,"file":"01-suc-khoe-va-phong-ngua.md","title":"Bảo vệ tính mạng và phòng bệnh","tips":48,"group":"Sức khỏe"},{"num":2,"file":"02-loi-song-va-benh-man-tinh.md","title":"Lối sống giúp giảm nguy cơ bệnh mạn tính","tips":47,"group":"Sức khỏe"},{"num":3,"file":"03-quan-ly-nang-luong-va-tap-trung.md","title":"Quản lý năng lượng và sự tập trung","tips":27,"group":"Phát triển"},{"num":4,"file":"04-quan-ly-thoi-gian-va-quyet-dinh.md","title":"Quản lý thời gian và ra quyết định","tips":18,"group":"Phát triển"},{"num":5,"file":"05-tai-chinh-ca-nhan.md","title":"Quản lý tiền và tránh mất tiền","tips":51,"group":"Tiền bạc"},{"num":6,"file":"06-nhung-khoan-khong-nen-mua.md","title":"Những khoản không nên mua chỉ vì quảng cáo","tips":35,"group":"Tiền bạc"},{"num":7,"file":"07-khi-thieu-tien-va-mat-viec.md","title":"Khi mất việc, thiếu tiền hoặc gặp biến cố","tips":23,"group":"Tiền bạc"},{"num":8,"file":"08-tranh-chap-va-bao-ve-ban-than.md","title":"Tránh rủi ro pháp lý và bảo vệ quyền lợi","tips":46,"group":"Pháp lý & công việc"},{"num":9,"file":"09-cac-rui-ro-phap-ly-thuong-gap.md","title":"Những rủi ro pháp lý thường gặp trong đời sống Việt Nam","tips":29,"group":"Pháp lý & công việc"},{"num":10,"file":"10-tinh-yeu-hon-nhan-va-gia-dinh.md","title":"Tình yêu, hôn nhân và gia đình","tips":23,"group":"Gia đình"},{"num":11,"file":"11-lap-trinh-vien-va-cong-nghe.md","title":"Lưu ý pháp lý cho lập trình viên và người làm công nghệ","tips":21,"group":"Pháp lý & công việc"},{"num":12,"file":"12-khoi-nghiep-va-kinh-doanh.md","title":"Khởi nghiệp và kinh doanh tại Việt Nam","tips":28,"group":"Pháp lý & công việc"},{"num":13,"file":"13-so-cuu-va-khan-cap.md","title":"Sơ cứu và tình huống khẩn cấp","tips":48,"group":"Sức khỏe"},{"num":14,"file":"14-an-toan-tai-khoan-va-du-lieu.md","title":"An toàn tài khoản và dữ liệu","tips":12,"group":"Đời sống"},{"num":15,"file":"15-thue-nha-va-mua-nha.md","title":"Thuê nhà và mua nhà","tips":18,"group":"Tiền bạc"},{"num":16,"file":"16-song-voi-benh-man-tinh.md","title":"Sống cùng bệnh mạn tính","tips":14,"group":"Sức khỏe"},{"num":17,"file":"17-cham-soc-nguoi-cao-tuoi.md","title":"Chăm sóc người cao tuổi","tips":13,"group":"Gia đình"},{"num":18,"file":"18-quyet-dinh-sinh-con-va-nuoi-con.md","title":"Quyết định sinh con và nuôi con","tips":7,"group":"Gia đình"},{"num":19,"file":"19-quyen-loi-lao-dong-va-nghi-viec.md","title":"Quyền lợi khi đi làm, nghỉ việc và tai nạn lao động","tips":24,"group":"Pháp lý & công việc"},{"num":20,"file":"20-cham-soc-tre-so-sinh.md","title":"Chăm sóc trẻ sơ sinh","tips":17,"group":"Sức khỏe"},{"num":21,"file":"21-du-lich-nuoc-ngoai.md","title":"Du lịch nước ngoài an toàn","tips":13,"group":"Phát triển"},{"num":22,"file":"22-giai-tri-va-thu-gian.md","title":"Giải trí và nghỉ ngơi an toàn","tips":12,"group":"Phát triển"},{"num":23,"file":"23-hoc-ky-nang-va-nghe-nghiep.md","title":"Học kỹ năng và phát triển nghề nghiệp","tips":25,"group":"Phát triển"},{"num":24,"file":"24-kham-chua-benh-va-bhyt.md","title":"Khám chữa bệnh và sử dụng bảo hiểm y tế","tips":15,"group":"Sức khỏe"},{"num":25,"file":"25-thu-tuc-sau-khi-nguoi-than-qua-doi.md","title":"Những việc cần làm khi người thân qua đời","tips":12,"group":"Pháp lý & công việc"},{"num":26,"file":"26-xay-dung-website-va-nen-tang-so.md","title":"Xây dựng website, ứng dụng và nền tảng số","tips":13,"group":"Pháp lý & công việc"},{"num":27,"file":"27-mang-thai-va-sinh-no.md","title":"Mang thai và sinh nở","tips":20,"group":"Sức khỏe"},{"num":28,"file":"28-ngoai-hinh-va-tham-my-an-toan.md","title":"Chăm sóc ngoại hình mà không làm hại sức khỏe","tips":10,"group":"Sức khỏe"},{"num":29,"file":"29-vuot-qua-bien-co-va-khung-hoang.md","title":"Vượt qua mất mát, thất nghiệp và biến cố lớn","tips":14,"group":"Gia đình"},{"num":30,"file":"30-suc-khoe-va-an-toan-tre-di-hoc.md","title":"Sức khỏe và an toàn của trẻ đi học","tips":21,"group":"Gia đình"},{"num":31,"file":"31-lua-chon-sau-tuoi-18.md","title":"Những lựa chọn sau tuổi 18","tips":17,"group":"Pháp lý & công việc"},{"num":32,"file":"32-du-hoc-va-hoc-tap-o-nuoc-ngoai.md","title":"Du học và học tập ở nước ngoài","tips":12,"group":"Phát triển"},{"num":33,"file":"33-song-voi-khuyet-tat-va-cham-soc-dai-han.md","title":"Sống với khuyết tật và chăm sóc dài hạn","tips":21,"group":"Gia đình"},{"num":34,"file":"34-su-dung-thuoc-an-toan-tai-nha.md","title":"Dùng thuốc an toàn tại nhà","tips":13,"group":"Sức khỏe"}];
 const GROUPS = [
   { name: "Tất cả", ids: CHAPTERS.map(c => c.num), icon: "✦" },
   { name: "Sức khỏe", ids: [1,2,13,16,20,24,27,28,34], icon: "✚" },
@@ -17,6 +17,7 @@ const state = {
   group: "Tất cả",
   view: "grid",
   sort: "chapter",
+  review: "all",
   limit: 24
 };
 
@@ -63,10 +64,12 @@ function parseChapter(meta, markdown) {
       body: current.lines.join("\n").trim()
     };
     if (current.type === "tip") {
+      const reviewMatch = section.body.match(/\*\*Mức kiểm chứng:\*\*\s*(P[123])/);
       tips.push({
         num: current.num,
         title: current.title,
-        body: section.body
+        body: section.body,
+        review: reviewMatch ? reviewMatch[1] : "P1"
       });
     } else {
       notes.push(section);
@@ -305,6 +308,7 @@ function getFiltered() {
       ...chapter.notes.map(n => n.title + " " + n.body)
     ].join(" "));
     chapter.tips.forEach(tip => {
+      if (state.review !== "all" && tip.review !== state.review) return;
       const haystack = normalise(`${chapter.title} ${tip.title} ${tip.body}`);
       const tipMatches = !query || haystack.includes(query);
       const notesMatch = query && !tipMatches && chapterText.includes(query);
@@ -368,7 +372,10 @@ function makeTipCard(entry, index) {
   badge.className = "tip-category";
   badge.textContent = entry.chapter.group;
 
-  top.append(number, badge);
+  const review = document.createElement("span");
+  review.className = `tip-review review-${entry.review.toLowerCase()}`;
+  review.textContent = entry.review === "P1" ? "Cần thẩm định" : entry.review === "P2" ? "Cần cập nhật" : "Nguyên tắc";
+  top.append(number, badge, review);
 
   const h = document.createElement("h3");
   h.textContent = entry.title;
@@ -412,9 +419,9 @@ function renderResults() {
     ? `${filtered.length} kết quả phù hợp`
     : `${filtered.length} / ${total} lời khuyên`;
   $("#resultSummary").textContent = state.query
-    ? `Đang tìm trong ${total} lời khuyên và ghi chú cập nhật của 34 chương.`
+    ? `Đang tìm trong ${total} lời khuyên Việt Nam và ghi chú cập nhật của 34 chương.`
     : state.group === "Tất cả" && !state.chapter
-      ? `Thư viện có ${total} lời khuyên được chọn lọc từ ${state.chapters.length} chủ đề.`
+      ? `Thư viện có ${total} lời khuyên được đối chiếu từ 767 mục gốc trong ${state.chapters.length} chương.`
       : `Đang lọc theo ${state.chapter ? "chương đã chọn" : state.group}.`;
 
   if (!filtered.length) return;
@@ -536,6 +543,12 @@ $("#sortSelect").addEventListener("change", event => {
   state.limit = 24;
   renderResults();
 });
+const reviewSelect = $("#reviewSelect");
+if (reviewSelect) reviewSelect.addEventListener("change", event => {
+  state.review = event.target.value;
+  state.limit = 24;
+  renderResults();
+});
 $$(".view-button").forEach(button => {
   button.addEventListener("click", () => setView(button.dataset.view));
 });
@@ -548,10 +561,12 @@ $("#resetFilters").addEventListener("click", () => {
   state.chapter = "";
   state.group = "Tất cả";
   state.sort = "chapter";
+  state.review = "all";
   state.limit = 24;
   searchInput.value = "";
   chapterSelect.value = "";
   $("#sortSelect").value = "chapter";
+  if (reviewSelect) reviewSelect.value = "all";
   buildGroupFilters();
   renderResults();
 });
